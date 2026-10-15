@@ -34,24 +34,6 @@ Stroke is a leading cause of death and long-term disability, and early identific
 5. **Scaling:** RobustScaler on age, BMI and glucose level
 6. **Model comparison:** 5-fold cross-validation on nine algorithms: Logistic Regression, KNN, Random Forest, SVM, Decision Tree, Gradient Boosting, AdaBoost, XGBoost and LightGBM
 
-## Results
-
-5-fold cross-validated accuracy:
-
-| Model | Accuracy |
-|-------|----------|
-| Logistic Regression | 95.74% |
-| SVM | 95.74% |
-| AdaBoost | 95.74% |
-| Random Forest | 95.66% |
-| Gradient Boosting | 95.48% |
-| KNN | 95.46% |
-| LightGBM | 95.11% |
-| XGBoost | 94.87% |
-| Decision Tree | 91.53% |
-
-**Note on class imbalance:** only about 4% of the cleaned records are stroke cases, so a model that always predicts "no stroke" already scores 95.74%. The top accuracy scores match this baseline, and on a held-out 20% test split most models detected few or none of the stroke cases. Accuracy alone is therefore not a reliable measure here, and improving recall is the main next step (see Future Improvements).
-
 ## Tech Stack
 
 - **Language:** Python
