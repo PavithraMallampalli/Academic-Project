@@ -27,7 +27,7 @@ A Django web application that analyses patient health data and compares nine mac
 1. **Cleaning:** Removed rows with missing BMI
 2. **Feature engineering:** Grouped age, glucose level and BMI into categories
 3. **Encoding and scaling:** Label and one-hot encoding, RobustScaler on Numeric columns
-4. **Model comparison:** 5-fold cross-validation on Logistic Regression, KNN, Random Forest, SVM, Decision Tree, Gradient Boosting, AdaBoost, XGBoost and LightGBM
+4. **Model comparison:** 5-fold cross-validation on Logistic Regression, KNN, Random Forest, SVM, Decision Tree, Gradient Boosting, XGBoost and LightGBM
 
 **Tech stack:** Python, Django, Pandas, NumPy, Scikit-learn, XGBoost, LightGBM, Matplotlib, Seaborn, SQLite
 
