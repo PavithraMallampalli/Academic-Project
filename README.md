@@ -2,7 +2,7 @@
 
 A Django web application that analyses patient health data and compares nine machine learning algorithms for predicting the risk of a brain stroke. Early identification of high-risk patients helps with timely prevention and treatment.
 
-**User Module:** register and log in (accounts are activated by the admin), add and view patient data, run the machine learning comparison and see the accuracy of each algorithm.
+**User Module:** register and log in (accounts are activated by the admin), add and view patient data, run the machine learning comparison and see the accuracy of each algorithm.  
 **Admin Module:** log in, view registered users and activate their accounts.
 
 ## Dataset
@@ -14,12 +14,12 @@ A Django web application that analyses patient health data and compares nine mac
 
 ## Software Requirements
 
-**Operating System:** Windows 10/11, Linux or macOS
-**Programming Language:** Python 3.8 or higher
-**Web Framework:** Django
-**Libraries:** Pandas, NumPy, Scikit-learn, XGBoost, LightGBM, Matplotlib, Seaborn, django-pandas
-**Database:** SQLite 
-**IDE / Editor:** PyCharm or VS Code
+**Operating System:** Windows 10/11, Linux or macOS  
+**Programming Language:** Python 3.8 or higher  
+**Web Framework:** Django  
+**Libraries:** Pandas, NumPy, Scikit-learn, XGBoost, LightGBM, Matplotlib, Seaborn, django-pandas  
+**Database:** SQLite  
+**IDE / Editor:** PyCharm or VS Code  
 **Web Browser:** Google Chrome or any modern browser
 
 ## Machine Learning Workflow
