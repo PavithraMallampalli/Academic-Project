@@ -1,0 +1,27 @@
+{% extends 'userbase.html'%}
+{%block contents%}
+
+ <section id="intro">
+
+    <div class="intro-text">
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+         
+
+
+  <h2><a href = '/'> <p style="text-align:center;">Brain Stroke  Prediction</p></a></h2>
+   
+  <h2>Results:</h2>
+ 
+  {% if prediction == 1%}
+  <h2 style="color:red;">Sorry to say, chances of having Brain Stroke disease is more, please consult a Doctor.</h2>
+<p style="text-align:center;"><img src="https://static.toiimg.com/thumb/msid-87343087,imgsize-79752,width-800,height-600,resizemode-75/87343087.jpg" alt="HTML" width="450" height="350"></p>
+ 
+  {% elif prediction == 0%}
+  <h2 style="color:blue;">No Worries!!! You don't have Brain Stroke disease.</h2>
+   <p style="text-align:center;"></p><img src="https://www.becomingminimalist.com/wp-content/uploads/2019/09/how-to-be-happy.jpg" alt="HTML" width="350" height="250"></p>
+  
+  
+  {% endif %}
+    </div>
+  </section>
+{%endblock%}
